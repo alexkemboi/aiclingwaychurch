@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import Image from "next/image";
-import lingway from "../images/image.jpg";
+import lingway from "../images/image.png";
 const Home = () => {
 	useEffect(() => {}, []);
 	return (
@@ -9,10 +9,10 @@ const Home = () => {
 			id="home"
 			className="bg-slate-50 animate-fadeIn ">
 			<div className="overflow-hidden w-100 h-100 animate-fade-in">
-				{/* <Image
+				<Image
 					src={lingway}
 					alt="Description"
-				/> */}
+				/>
 			</div>
 			<div className="px-10 flex md:flex-row flex-col sm:flex-col bg-zinc-600">
 				<div className="sm:w-full md:w-2/3 lg:w-2/3">
