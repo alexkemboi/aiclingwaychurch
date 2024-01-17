@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import Image from "next/image";
-import pst from "../app/pst.jpg";
+import pst from "../images/pst.jpg";
 const Contact = () => {
 	useEffect(() => {}, []);
 	return (
@@ -15,9 +15,7 @@ const Contact = () => {
 						<h1 className="text-center text-3xl md:text-3xl lg:text-3xl font-bold font-bold text-white">
 							Contact Me
 						</h1>
-						<form
-							id="contactForm"
-							action="javascript:void(0);">
+						<form id="contactForm">
 							<div className="mb-4">
 								<label
 									htmlFor="name"

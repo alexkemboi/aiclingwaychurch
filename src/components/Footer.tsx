@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import lingway from "../../src/app/AIC-Logo-Small_Light.png";
+import lingway from "../../src/images/AIC-Logo-Small_Light.png";
 const Footer = () => {
 	const menuItems = [
 		{ name: "Home", link: "/" },

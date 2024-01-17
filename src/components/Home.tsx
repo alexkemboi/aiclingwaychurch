@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import Image from "next/image";
-import lingway from "../app/image.jpg";
+import lingway from "../images/image.jpg";
 const Home = () => {
 	useEffect(() => {}, []);
 	return (

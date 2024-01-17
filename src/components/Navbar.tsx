@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
-import lingway from "../../src/app/AIC-Logo-Small_Light.png";
+import lingway from "../../src/images/AIC-Logo-Small_Light.png";
 import Image from "next/image";
 const Navbar = () => {
 	const menuItems = [
